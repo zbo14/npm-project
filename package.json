@@ -1,0 +1,37 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "Template repository for npm projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zbo14/npm-project"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test nyc mocha --recursive --exit"
+  },
+  "keywords": [],
+  "author": "Zachary Balder",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-standard": "14.1.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-node": "11.0.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.1",
+    "mocha": "7.1.0",
+    "nyc": "15.0.0"
+  },
+  "nyc": {
+    "check-coverage": true,
+    "per-file": true,
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100,
+    "reporter": [
+      "html",
+      "text"
+    ]
+  }
+}
