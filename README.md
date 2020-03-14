@@ -1,3 +1,9 @@
-# npm-project
+# <project-name>
 
-Template for npm projects
+## Install
+
+## Usage
+
+## Test
+
+## Contributing

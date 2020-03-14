@@ -1,10 +1,10 @@
 {
-  "name": "npm-project",
+  "name": "<project-name>",
   "version": "1.0.0",
-  "description": "Template repository for npm projects",
+  "description": "<project-description>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zbo14/npm-project"
+    "url": "https://github.com/zbo14/<project-name>"
   },
   "scripts": {
     "test": "NODE_ENV=test nyc mocha --recursive --exit"
